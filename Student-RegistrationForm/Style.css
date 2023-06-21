@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans"sans-serif;
+}
+
+body {
+  align-items: center;
+  background: linear-gradient(to left, #f79f4e, #d25fff);
+  min-height: 87vh;
+}
+
+.custom-con {
+  margin-top: 4%;
+  margin-left: 10%;
+  margin-right: 14%;
+  margin-bottom: 2%;
+}
+
+.row {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sec-form {
+  border-right: 2px solid #030303;
+}
+
+.sec-form .form-label {
+  font-size: 1.5rem;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.sec-form .form-control {
+  background: #ffffff;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.sec-form h1,
+.sec-user h1 {
+  padding-top: 4%;
+  padding-bottom: 2%;
+  text-align: center;
+}
+
+.check2,
+.check1 {
+  display: flex;
+}
+
+.btn2 {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.btn2 .enroll1 {
+  background: #211857;
+  color: #fff;
+  border-radius: 1rem;
+  border: none;
+  font-size: 1.3rem;
+}
+
+.btn2 .enroll1:hover {
+  background: #fffb04;
+  color: #000;
+}
+
+.btn2 .clear1 {
+  background: #6e1a63;
+  width: 6.5rem;
+  color: #fff;
+  border-radius: 1rem;
+  border: none;
+  font-size: 1.3rem;
+}
+
+.btn2 .clear1:hover {
+  background: #20ff03;
+  color: #000;
+}
+
+.card1 {
+  margin-left: 1rem;
+  margin-top: 5vmin;
+  margin-bottom: auto;
+}
+
+.card1 .card {
+  background: #000;
+  color: #fff;
+  margin-top: 1.5rem;
+  border-radius: 0.5rem;
+  max-width: 530px;
+  height: 232px;
+}
+
+.card1 .card:hover {
+  transform: scale(1.02);
+  transition: all linear ease;
+  background: #1a0753;
+  color: #fff;
+}
+
+.img-fluid {
+  height: 232px !important;
+  border: none;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+/* media */
+@media (max-width: 1150px) {
+  .col-10 {
+    padding-left: 5vmin;
+  }
+
+  .custom-con {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+@media (max-width: 765px) {
+  .sec-form .btn2 {
+    margin-bottom: 4vmin;
+  }
+
+  .sec-user {
+    border-top: 2px solid #000;
+  }
+}
+
+@media (max-width: 576px) {
+  .sec-user {
+    margin-bottom: 3%;
+  }
+
+  .btn2 {
+    display: block;
+  }
+
+  .enroll1 {
+    margin-bottom: 4%;
+  }
+}
